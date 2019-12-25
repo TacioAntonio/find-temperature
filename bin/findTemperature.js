@@ -22,7 +22,7 @@ function findTemperaturaOfCity() {
 
       spinner.stop();
 
-      console.info(result + '\n    ' + chalk.blue('City:') + ' ' + result.results.city.replace(',', '') + '\n    ' + chalk.green('Temperature') + ': ' + result.results.temp + '\n    ' + chalk.yellow('Condition') + ': ' + result.results.description);
+      console.info('\n    ' + chalk.blue('City:') + ' ' + result.results.city.replace(',', '') + '\n    ' + chalk.green('Temperature') + ': ' + result.results.temp + '\n    ' + chalk.yellow('Condition') + ': ' + result.results.description);
     } catch (err) {
       console.info('' + chalk.red('Something went wrong in the API. Try in a few minutes.'));
       return err;

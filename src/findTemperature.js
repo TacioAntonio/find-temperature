@@ -18,7 +18,7 @@ function findTemperaturaOfCity(city = 'Campinas', state = 'SP') {
 
       spinner.stop();
 
-      console.info(`${result}
+      console.info(`
     ${chalk.blue('City:')} ${result.results.city.replace(',', '')}
     ${chalk.green('Temperature')}: ${result.results.temp}
     ${chalk.yellow('Condition')}: ${result.results.description}`);
