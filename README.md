@@ -19,6 +19,8 @@ $ npm i -g find-temperature
 
 ## Como utilizar
 
+Entre em [HG Weather](https://hgbrasil.com/status/weather) e crie um **token**. Adicione seu token em *src/token.js*.
+
 ```sh
 $ find-temperature --help
 ```
